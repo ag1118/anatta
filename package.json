@@ -1,0 +1,22 @@
+{
+  "name": "anatta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "postinstall": "cp .env.example .env",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "anatta",
+    "shopify"
+  ],
+  "author": "Alex Gonzalez",
+  "license": "ISC",
+  "dependencies": {
+    "@shopify/admin-api-client": "^1.0.0",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5"
+  }
+}
