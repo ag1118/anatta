@@ -7,7 +7,7 @@ Node.js >= 18
 ## Installation
 
 ```bash
-npm run install
+npm install
 ```
 
 Fill in the shopify domain, and admin access token in `.env` file.
