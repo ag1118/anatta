@@ -33,6 +33,9 @@ const { name } = options;
 
     const productVariants = await fetchProductVariantsByProductIds(productIds);
 
+    // Sort product variants by price
+    productVariants.sort((a, b) => a.price - b.price);
+
     for (const productVariant of productVariants) {
       console.log(
         `${productVariant.product.title} - Variant ${
